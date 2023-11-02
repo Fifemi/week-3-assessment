@@ -1,0 +1,62 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 900;
+}
+.scan-code p{
+    letter-spacing: 2px;
+    line-height: 10px;
+}
+.qr-code-img{
+    border-radius: 10px;
+    padding: 10px;
+    border-style: inset;
+    border-width: 1px;
+    width: 300px;
+}
+.text{
+    display: flex;
+    align-items: center;
+}                   
+.input .Btn{
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.Btn{
+    width: 400px;
+    height: 30px;
+    text-align: start;
+    padding-left: 10px;
+}
+svg{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: green;
+    width: 450px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    height: 35px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+
+}
